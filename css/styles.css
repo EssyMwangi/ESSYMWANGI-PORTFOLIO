@@ -1,8 +1,9 @@
 .nav li{
   display: inline-block;
   float: right;
-  padding: 20px;
+  padding: 30px;
   font-size: 30px;
+  margin-top: 30px;
 }
 .essy{
 text-align: center;
@@ -15,6 +16,7 @@ body{
   background-attachment: fixed;
   color:black;
   font-size: 25px;
+  font-style: italic;
 }
 
 head{
@@ -29,6 +31,7 @@ head{
 
 .home{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 50px;
 }
 
 @media screen and (min-width: 500px) and (max-width: 867px) {
@@ -47,6 +50,11 @@ body {
   padding: 15px;
 }
 }
+
+#about{
+  font-size: 25px;
+}
+
 
 
 
