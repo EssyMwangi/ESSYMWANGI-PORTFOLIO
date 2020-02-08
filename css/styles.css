@@ -1,0 +1,36 @@
+.nav li{
+  display: inline-block;
+  float: right;
+  padding: 20px;
+  font-size: 30px;
+}
+.essy{
+text-align: center;
+}
+body{
+  background-image: url('../images/pattern\ 2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color:black;
+  font-size: 25px;
+}
+
+head{
+  font-size: larger;
+}
+
+
+.home img{
+  margin-left: 500px;
+  margin-top: 150px;
+}
+
+.home{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.
+
+
+
