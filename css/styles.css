@@ -30,7 +30,23 @@ head{
 .home{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.
+
+@media screen and (min-width: 500px) and (max-width: 867px) {
+  body {
+      background-color: black;
+      color: white;
+  }
+}
+@media screen and (min-width: 868px) {
+body {
+  background-color: whitesmoke;
+}
+.column {
+  width: 220px;
+  float: left;
+  padding: 15px;
+}
+}
 
 
 
