@@ -1,3 +1,4 @@
+/*Navigation Bar*/
 .nav li{
   display: inline-block;
   float: right;
@@ -5,35 +6,68 @@
   font-size: 25px;
   margin-top: 0px;
 }
-.essy{
-text-align: center;
+
+.nav li a:hover{
+  background: turquoise;
+  color: black;
+
 }
+/*Contact*/
+.socialmedia li a:hover{
+  background: turquoise;
+  color: black;
+}
+
+.socialmedia{
+  list-style: none;
+}
+
+/* Home*/
+.essy{
+  text-align: center;
+  }
+
+  .home img{
+    margin-left: 500px;
+    margin-top: 150px;
+  }
+  
+  .home{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+    font-family: fantasy;
+  }
+
+  /*Projects*/
+  #Projects li a:hover{
+  background: turquoise;
+  color: black;
+
+}
+/*about*/
+#about{
+  font-size: 25px;
+}
+
+/*Body*/
 body{
-  background-image: url('../images/pattern\ 2.jpg');
+  background-image: url('../images/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  color:black;
+  color:white;
   font-size: 25px;
   font-style: italic;
 }
 
+
+/*Head*/
 head{
   font-size: larger;
 }
 
-
-.home img{
-  margin-left: 500px;
-  margin-top: 150px;
-}
-
-.home{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  margin-top: 50px;
-}
-
+/*Media Screen Query*/
 @media screen and (min-width: 500px) and (max-width: 867px) {
   body {
       background-color: black;
@@ -51,12 +85,7 @@ body {
 }
 }
 
-#about{
-  font-size: 25px;
-}
 
-.socialmedia{
-  list-style: none;
-}
+
 
 
