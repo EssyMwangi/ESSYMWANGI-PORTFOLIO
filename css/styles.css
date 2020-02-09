@@ -67,6 +67,7 @@ head{
   font-size: larger;
 }
 
+
 /*Media Screen Query*/
 @media screen and (min-width: 500px) and (max-width: 867px) {
   body {
@@ -75,14 +76,13 @@ head{
   }
 }
 @media screen and (min-width: 868px) {
-body {
+  body {
   background-color: whitesmoke;
-}
-.column {
+  }
+  .column {
   width: 220px;
   float: left;
   padding: 15px;
-}
-}
-
-
+  }
+  }
+  
