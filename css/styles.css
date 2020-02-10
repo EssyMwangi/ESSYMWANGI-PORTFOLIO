@@ -59,6 +59,7 @@ body{
   color:palevioletred;
   font-size: 25px;
   font-style: italic;
+  border: pink dotted;
 }
 
 
@@ -66,23 +67,3 @@ body{
 head{
   font-size: larger;
 }
-
-/*Media Screen Query*/
-@media screen and (min-width: 500px) and (max-width: 867px) {
-  body {
-      background-color: black;
-      color: white;
-  }
-}
-@media screen and (min-width: 868px) {
-body {
-  background-color: whitesmoke;
-}
-.column {
-  width: 220px;
-  float: left;
-  padding: 15px;
-}
-}
-
-
